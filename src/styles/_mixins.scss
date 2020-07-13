@@ -1,4 +1,4 @@
-@mixin mq($deviceType: 'desktop') {
+@mixin mq($deviceType: 'tablet') {
   @if ($deviceType == 'desktop') {
     @media all and (min-width: 1025px) {
       @content;

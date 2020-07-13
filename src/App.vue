@@ -8,6 +8,6 @@
 @import './styles/base';
 
 #app {
-  min-height: 125vh;
+  min-height: 225vh;
 }
 </style>
