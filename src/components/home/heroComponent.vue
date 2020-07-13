@@ -15,17 +15,12 @@
 
 <script>
 export default {
-  data() {
-    return {
-      backgroundScroll: 0
-    };
-  },
   mounted() {
     this.backgroundParallax();
   },
   methods: {
     backgroundParallax() {
-      window.addEventListener('scroll', () => {
+      document.addEventListener('scroll', () => {
         document.querySelector(
           '.hero'
         ).style.backgroundPositionY = `${window.scrollY / 2}px`;
