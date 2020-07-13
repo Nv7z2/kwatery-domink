@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+@import './styles/base';
+
 #app {
+  min-height: 125vh;
 }
 </style>
