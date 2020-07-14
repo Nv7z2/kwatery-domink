@@ -17,22 +17,22 @@
       :class="{ 'navigation__menu--active': isMenuActive }"
     >
       <li class="navigation__element">
-        <a href="#" class="navigation__link">Start</a>
+        <a href="#start" class="navigation__link">Start</a>
       </li>
       <li class="navigation__element">
-        <a href="#" class="navigation__link">Cennik</a>
+        <a href="#cennik" class="navigation__link">Cennik</a>
       </li>
       <li class="navigation__element">
         <a href="#" class="navigation__link">Galeria</a>
       </li>
       <li class="navigation__element">
-        <a href="#" class="navigation__link">Kontakt</a>
+        <a href="#kontakt" class="navigation__link">Kontakt</a>
       </li>
       <li class="navigation__element">
-        <a href="#" class="navigation__link">Aktualności</a>
+        <a href="#aktualnosci" class="navigation__link">Aktualności</a>
       </li>
       <li class="navigation__element">
-        <a href="#" class="navigation__link">Regulamin</a>
+        <a href="#regulamin" class="navigation__link">Regulamin</a>
       </li>
     </ul>
   </nav>

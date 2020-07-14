@@ -1,5 +1,5 @@
 <template>
-  <div class="home__hero hero">
+  <div class="home__hero hero" id="start">
     <div class="hero__description">
       <h1 class="hero__heading">Pensjonat <br /><q>Kwatery Dominik</q></h1>
       <p>
