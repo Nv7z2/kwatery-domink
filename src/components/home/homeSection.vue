@@ -24,10 +24,13 @@ export default {
 <style lang="scss" scoped>
 .section {
   padding: 1rem;
-  scroll-margin-top: 100px;
+  margin-bottom: 2rem;
+  scroll-margin-top: 50px;
 
   @include mq {
     padding: 2rem;
+    margin-bottom: 4rem;
+    scroll-margin-top: 100px;
   }
 
   &__heading {

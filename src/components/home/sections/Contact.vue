@@ -1,6 +1,6 @@
 <template>
-  <home-section id="kontakt" title="Kontakt">
-    Siema
+  <home-section id="kontakt" title="Kontakt" class="contact">
+    Kontakt
   </home-section>
 </template>
 

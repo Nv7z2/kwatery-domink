@@ -1,6 +1,12 @@
 <template>
-  <home-section id="aktualnosci" title="Aktualności">
-    Siema
+  <home-section id="aktualnosci" title="Aktualności" class="news">
+    <ul class="news__list">
+      <li class="news__element">
+        W związku z obowiązującymi obostrzeniami odnośnie użytkowania
+        przestrzeni ogólnodostępnych plac zabaw oraz kuchnia jest niedostępna do
+        odwołania.
+      </li>
+    </ul>
   </home-section>
 </template>
 
@@ -14,4 +20,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.news {
+  &__list {
+    margin-left: 1rem;
+    list-style: circle;
+  }
+}
+</style>
