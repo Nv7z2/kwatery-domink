@@ -47,6 +47,11 @@ export default {
     };
   },
   mounted() {
+    document.getElementsByTagName('a').forEach(link => {
+      link.addEventListener('click', () => {
+        this.isMenuActive = false;
+      });
+    });
     this.navigationScrolled();
   },
   methods: {
@@ -156,13 +161,14 @@ export default {
     display: block;
     height: 100%;
     padding: 1rem;
+    border-bottom: 2px solid transparent;
 
     @include mq {
       padding: 0.5rem 1rem;
       transition: border 0.15s;
 
       &:hover {
-        border-bottom: 2px solid white;
+        border-color: white;
       }
     }
   }
